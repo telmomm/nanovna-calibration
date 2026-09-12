@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "NanoVNA Calibration: reproducible calibration and analysis of RF measurements"
+type: software
+authors:
+  - family-names: "Miguel-Medina"
+    given-names: "Telmo"
+repository-code: "https://github.com/telmomm/nanovna-calibration"
+license: BSD-3-Clause
+version: 0.1.0
+date-released: "2026-09-12"
+references:
+  - type: software
+    title: "rfmeasurement: an open-source framework for uncertainty-aware validation and reproducible analysis of RF measurements"
+    authors:
+      - family-names: "Miguel-Medina"
+        given-names: "Telmo"
+        orcid: "https://orcid.org/0009-0004-0654-6650"
+    repository-code: "https://github.com/telmomm/rfmeasurement"
+    version: 0.1.0
+    year: 2026
+    doi: "10.5281/zenodo.22058515"
