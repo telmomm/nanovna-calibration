@@ -3,6 +3,9 @@
 Reproducible analysis of S-parameter measurements acquired with a NanoVNA. The workflow uses `scikit-rf` to represent and serialize Touchstone networks, and `rfmeasurement` for context, validation, and traceability.
 
 [![Quality gate](https://github.com/telmomm/nanovna-calibration/actions/workflows/quality.yml/badge.svg)](https://github.com/telmomm/nanovna-calibration/actions/workflows/quality.yml)
+[![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-2ea44f)](https://telmomm.github.io/nanovna-calibration/)
+
+The project documentation is published at [telmomm.github.io/nanovna-calibration](https://telmomm.github.io/nanovna-calibration/). It is built from `docs/` with MkDocs and deployed by [`.github/workflows/pages.yml`](.github/workflows/pages.yml).
 
 ## Goals
 
@@ -28,6 +31,7 @@ Reproducible analysis of S-parameter measurements acquired with a NanoVNA. The w
 ├── CHANGELOG.md
 ├── CITATION.cff
 ├── CONTRIBUTING.md
+├── SECURITY.md
 ├── LICENSE
 ├── README.md
 └── pyproject.toml

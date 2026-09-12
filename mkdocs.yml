@@ -1,0 +1,24 @@
+site_name: NanoVNA Calibration
+site_description: Reproducible NanoVNA calibration and RF measurement analysis.
+site_url: https://telmomm.github.io/nanovna-calibration/
+repo_url: https://github.com/telmomm/nanovna-calibration
+repo_name: telmomm/nanovna-calibration
+edit_uri: edit/main/docs/
+
+nav:
+  - Home: index.md
+  - Methodology: methodology.md
+  - Repository organization: repository-organization.md
+  - rfmeasurement reference: rfmeasurement.md
+  - Testing and validation: testing-validation.md
+
+theme:
+  name: mkdocs
+  language: en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true

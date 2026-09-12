@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://telmomm.github.io/nanovna-calibration/
+    about: Read the workflow, methodology, and validation documentation before opening an issue.
+  - name: Security vulnerability
+    url: https://github.com/telmomm/nanovna-calibration/security/policy
+    about: Please report security vulnerabilities privately according to the security policy.

@@ -1,0 +1,38 @@
+name: Feature request
+description: Propose a focused improvement to the calibration workflow or project tooling.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: What user, laboratory, or reproducibility problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the smallest useful behavior and where it should live.
+    validations:
+      required: true
+  - type: textarea
+    id: scientific_context
+    attributes:
+      label: Scientific context
+      description: Include equations, references, units, assumptions, or validity limits when relevant.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope checklist
+      options:
+        - label: This request is focused on one concern.
+          required: true
+        - label: I have checked the existing documentation and open issues.
+          required: true

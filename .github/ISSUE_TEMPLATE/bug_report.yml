@@ -1,0 +1,52 @@
+name: Bug report
+description: Report a reproducible problem in the code, notebooks, workflow, or documentation.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for a reproducible software, notebook, documentation, or repository problem.
+        For a scientific result that looks physically incorrect, use the scientific validation report instead.
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Include OS, Python version, and the installed package versions.
+      placeholder: macOS 15, Python 3.12, scikit-rf 2.x, rfmeasurement 0.1.0
+    validations:
+      required: true
+  - type: input
+    id: workflow_step
+    attributes:
+      label: Workflow step
+      description: Identify the notebook, script, or command where the problem occurs.
+      placeholder: notebooks/02_calibracion_sol_rfmeasurement.ipynb
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: List the smallest sequence of steps that reproduces the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include the complete error message or relevant output.
+    validations:
+      required: true
+  - type: textarea
+    id: artifacts
+    attributes:
+      label: Relevant artifacts
+      description: Link to a minimal dataset, notebook cell, log, or screenshot. Remove private data first.

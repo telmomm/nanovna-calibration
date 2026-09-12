@@ -1,0 +1,51 @@
+name: Scientific validation report
+description: Report a physically unexpected result, calibration concern, or reproducibility discrepancy.
+title: "[Validation]: "
+labels:
+  - scientific-validation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for scientific interpretation and measurement-quality concerns.
+        Passivity or uncertainty warnings can be valid experimental evidence; include the validation report before classifying them as software bugs.
+  - type: input
+    id: dataset
+    attributes:
+      label: Dataset or measurement set
+      description: Identify the standards, DUT, frequency range, and source files.
+    validations:
+      required: true
+  - type: input
+    id: workflow
+    attributes:
+      label: Workflow and revision
+      description: Include the notebook, commit, Python version, and relevant package versions.
+    validations:
+      required: true
+  - type: textarea
+    id: observation
+    attributes:
+      label: Observation
+      description: Describe the measured or calculated result, including units and frequency range.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected physical behavior
+      description: State the reference, model, equation, or measurement expectation.
+    validations:
+      required: true
+  - type: textarea
+    id: validation_report
+    attributes:
+      label: rfmeasurement validation report
+      description: Paste the integrity and quality report, including warnings and failures.
+    validations:
+      required: true
+  - type: textarea
+    id: artifacts
+    attributes:
+      label: Reproducibility artifacts
+      description: Link to a minimal dataset, notebook output, plot, or calculation. Remove private data first.

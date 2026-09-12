@@ -1,5 +1,7 @@
 # Documentation
 
+This site documents the reproducible NanoVNA calibration and RF measurement workflow. It is built with MkDocs from the Markdown files in this directory.
+
 ## Index
 
 - [Methodology](methodology.md)
