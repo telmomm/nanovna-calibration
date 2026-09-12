@@ -4,6 +4,7 @@ Reproducible analysis of S-parameter measurements acquired with a NanoVNA. The w
 
 [![Quality gate](https://github.com/telmomm/nanovna-calibration/actions/workflows/quality.yml/badge.svg)](https://github.com/telmomm/nanovna-calibration/actions/workflows/quality.yml)
 [![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-2ea44f)](https://telmomm.github.io/nanovna-calibration/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22722703.svg)](https://10.5281/zenodo.22722703)
 
 The project documentation is published at [telmomm.github.io/nanovna-calibration](https://telmomm.github.io/nanovna-calibration/). It is built from `docs/` with MkDocs and deployed by [`.github/workflows/pages.yml`](.github/workflows/pages.yml).
 
